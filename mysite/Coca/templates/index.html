@@ -8,9 +8,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="CocaQuality, WEB diseñada para integración por SDD TEAM">
-  <meta name="author" content="GeeksLabs">
+  <meta name="author" content="SDD TEAM">
   <meta name="keyword" content="CocaQuality, WEB diseñada para integración  por SDD TEAM">
-  <link rel="shortcut icon" href="img/icono.png">
+  <link rel="shortcut icon" href="{% static 'img/icono.png'%}">
 
   <title>CocaQuality</title>
 
@@ -104,7 +104,7 @@
                                     <span class="time">1 min</span>
                                     </span>
                                     <span class="message">
-                                        Apurate , también tengo que terminar mi parte.
+                                        Apurate.
                                     </span>
                                 </a>
               </li>
@@ -179,7 +179,7 @@
           <li class="active">
             <a class="" href="{% url 'inicio'%}">
                           <i class="icon_house_alt"></i>
-                          <span>Inicioooo</span>
+                          <span>Inicio</span>
                       </a>
           </li>
           <li class="sub-menu">
@@ -293,7 +293,7 @@
                 <div class="panel-actions">
                   <a href="{% url 'inicio'%}" class="btn-setting"><i class="fa fa-rotate-right"></i></a>
                   <a href="{% url 'inicio'%}"class="btn-minimize"><i class="fa fa-chevron-up"></i></a>
-                  <a href="{% url 'inicio'%}"/static/ class="btn-close"><i class="fa fa-times"></i></a>
+                  <a href="{% url 'inicio'%}" class="btn-close"><i class="fa fa-times"></i></a>
                 </div>
               </div>
               <div class="panel-body">
@@ -469,7 +469,7 @@
                 <div class="padd sscroll">
 
                   <div class="text">
-                    <a href="#" class="activity-img"><img class="avatar" src="img/chat-avatar.jpg" alt=""></a>
+                    <a href="#" class="activity-img"><img class="avatar" src="{% static 'img/chat-avatar.jpg'%}" alt=""></a>
                     <p class="attribution"><a href="#">Soledad Gamonal</a> at 5:25am, 30th Octmber 2014</p>
                     <p>La Coca-Cola fue creada en el laboratorio de John Pemberton en 1886, mientras buscaba un nuevo remedio para la diarrea y las náuseas. Ese mismo año, vendiendo el remedio a cinco centavos la unidad, la bebida se convirtió en todo un éxito y su contable Frank Robinson, decidió ponerle nombre y logo (que perduran hasta hoy). Vendió, primero, una parte de The Coca-Cola Company a Asa Griggs Candler y, cuando murió, este se quedó con la que refundó como The Coca-Cola Company por 2300 dólares, llegando a vender el refresco en todos los países del mundo. En el año 2005 Coca-Cola implemento el sistema de gestión de calidad, logrando así ser aún más competitivo de lo que era anteriormente.
 
@@ -500,7 +500,7 @@
                   </div>
                   <div class="col-lg-4">
                     <span class="profile-ava pull-right">
-                                        <img alt="" class="simple" src="img/avatar1_small.jpg">
+                                        <img alt="" class="simple" src="{% static 'img/avatar1_small.jpg'%}">
                                         Dante Vasquez
                                 </span>
                   </div>
@@ -518,7 +518,7 @@
                     </td>
                     <td>
                       <span class="profile-ava">
-                                        <img alt="" class="simple" src="img/avatar1_small.jpg">
+                                        <img alt="" class="simple" src="{% static 'img/avatar1_small.jpg'%}">
                                     </span>
                     </td>
                   </tr>
@@ -556,7 +556,7 @@
                     </td>
                     <td>
                       <span class="profile-ava">
-                                        <img alt="" class="simple" src="img/avatar1_small.jpg">
+                                        <img alt="" class="simple" src="{% static 'img/avatar1_small.jpg'%}">
                                       </span>
                     </td>
                   </tr>
@@ -606,7 +606,7 @@
                     </td>
                     <td>
                       <span class="profile-ava">
-                                        <img alt="" class="simple" src="img/avatar1_small.jpg">
+                                        <img alt="" class="simple" src="{% static 'img/avatar1_small.jpg'%}">
                                       </span>
                     </td>
                   </tr>
